@@ -4251,6 +4251,10 @@ spdy@^3.4.1:
     select-hose "^2.0.0"
     spdy-transport "^2.0.18"
 
+spectacle-image-slide@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/spectacle-image-slide/-/spectacle-image-slide-1.0.1.tgz#69fbf1c39b241b42d479f543393fb9789d4e0eb9"
+
 "spectacle-theme-solarized-light@https://github.com/youxkei/spectacle-theme-solarized-light.git#cd7374e":
   version "1.0.0"
   resolved "https://github.com/youxkei/spectacle-theme-solarized-light.git#cd7374e"
@@ -4617,7 +4621,7 @@ urix@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
 
-url-loader@~0.5.5:
+url-loader@^0.5.9, url-loader@~0.5.5:
   version "0.5.9"
   resolved "https://registry.yarnpkg.com/url-loader/-/url-loader-0.5.9.tgz#cc8fea82c7b906e7777019250869e569e995c295"
   dependencies:

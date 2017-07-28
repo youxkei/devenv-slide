@@ -9,7 +9,7 @@ module.exports = {
         filename: "index.js",
     },
     resolve: {
-        extensions: [".tsx", ".ts", ".js"],
+        extensions: [".tsx", ".ts", ".js", ".jpg", ".png"],
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
@@ -29,6 +29,10 @@ module.exports = {
                     { loader: "style-loader" },
                     { loader: "raw-loader" }
                 ],
+            },
+            {
+                test: /\.(jpg|png|svg)$/,
+                loader: "url-loader",
             },
         ],
     },

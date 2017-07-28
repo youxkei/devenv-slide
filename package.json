@@ -18,9 +18,11 @@
     "react-dom": "^15.6.1",
     "react-github-fork-ribbon": "^0.5.0",
     "spectacle": "^2.1.1",
+    "spectacle-image-slide": "^1.0.1",
     "spectacle-theme-solarized-light": "https://github.com/youxkei/spectacle-theme-solarized-light.git#cd7374e",
     "style-loader": "^0.18.2",
     "typescript": "^2.4.2",
+    "url-loader": "^0.5.9",
     "webpack": "^3.4.1"
   },
   "devDependencies": {
